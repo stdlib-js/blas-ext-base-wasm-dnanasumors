@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnanasumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnanasumors@deno/mod.js';
+import dnanasumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnanasumors@v0.1.0-deno/mod.js';
 ```
 
 #### dnanasumors.main( N, x, strideX )
@@ -264,7 +264,7 @@ The function has the following additional parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dnanasumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnanasumors@deno/mod.js';
+import dnanasumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnanasumors@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
